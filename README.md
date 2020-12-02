@@ -1,4 +1,4 @@
-### Run the following script to create CloudFront
+### Run the following script to create CloudFront Distribution
 
 ```
 git clone https://github.com/hhh2012aa/create-CloudFront/
