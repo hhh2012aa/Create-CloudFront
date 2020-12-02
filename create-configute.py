@@ -3,7 +3,7 @@ import fileinput
 s3_replacement_text = input("s3 name: ")
 elb_replacement_text = input("elb domain name: ")
 # Read in the file
-with open('distribution-config copy.json', 'r') as file :
+with open('distribution-config.json', 'r') as file :
   filedata = file.read()
 
 # Replace the target string
