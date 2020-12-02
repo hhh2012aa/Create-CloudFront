@@ -11,5 +11,5 @@ filedata = filedata.replace('<s3-name>', s3_replacement_text)
 filedata = filedata.replace('<wp-alb-domain>', elb_replacement_text)
 
 # Write the file out again
-with open('new.json', 'w') as file:
+with open('my-distribution-config.json', 'w') as file:
   file.write(filedata)
