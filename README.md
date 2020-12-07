@@ -3,6 +3,7 @@
 ```
 git clone https://github.com/hhh2012aa/create-CloudFront/
 cd create-CloudFront
+python create-config
 ```
 
 ```
