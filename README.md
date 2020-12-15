@@ -2,8 +2,7 @@
 
 ```
 git clone https://github.com/hhh2012aa/wordpress-cloudfront-distrubution-config-wizard
-cd create-CloudFront
-python create-config
+python ./wordpress-cloudfront-distrubution-config-wizard/create-config.py
 ```
 
 ```
