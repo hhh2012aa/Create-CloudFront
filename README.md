@@ -1,7 +1,7 @@
 ### Run the following script to create CloudFront Distribution
 
 ```
-git clone https://github.com/hhh2012aa/create-CloudFront/
+git clone https://github.com/hhh2012aa/wordpress-cloudfront-distrubution-config-wizard
 cd create-CloudFront
 python create-config
 ```
