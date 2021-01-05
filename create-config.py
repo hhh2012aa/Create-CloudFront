@@ -1,7 +1,7 @@
 import fileinput
 
-s3_replacement_text = input("s3 name: ")
-elb_replacement_text = input("elb domain name: ")
+s3_replacement_text = str(input("s3 name: "))
+elb_replacement_text = str(input("elb domain name: "))
 # Read in the file
 with open('distribution-config.json', 'r') as file :
   filedata = file.read()
